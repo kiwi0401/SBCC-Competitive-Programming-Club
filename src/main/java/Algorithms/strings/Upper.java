@@ -1,4 +1,4 @@
-package strings;
+package Algorithms.strings;
 
 public class Upper {
 

@@ -1,4 +1,4 @@
-package Sorts;
+package Algorithms.Sorts;
 
 import java.util.Random;
 

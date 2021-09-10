@@ -1,4 +1,4 @@
-package DataStructures.Lists;
+package Algorithms.DataStructures.Lists;
 
 public class CountSinglyLinkedListRecursion extends SinglyLinkedList {
   public static void main(String[] args) {

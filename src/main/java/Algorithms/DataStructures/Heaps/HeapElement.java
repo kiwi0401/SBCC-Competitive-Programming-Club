@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package Algorithms.DataStructures.Heaps;
 
 /**
  * Class for heap elements.<br>

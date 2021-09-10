@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** @author https://github.com/shellhub/ */
 public class GCDRecursion {

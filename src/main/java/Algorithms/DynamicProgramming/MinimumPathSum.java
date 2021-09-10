@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 
 /*
 Given the following grid with length m and width n:

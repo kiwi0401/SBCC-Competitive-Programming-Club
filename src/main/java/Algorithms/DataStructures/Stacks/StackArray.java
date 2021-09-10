@@ -1,4 +1,4 @@
-package DataStructures.Stacks;
+package Algorithms.DataStructures.Stacks;
 
 /**
  * This class implements a Stack using a regular array.

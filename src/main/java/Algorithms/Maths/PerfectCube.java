@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** https://en.wikipedia.org/wiki/Cube_(algebra) */
 public class PerfectCube {

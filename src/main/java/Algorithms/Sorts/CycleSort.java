@@ -1,7 +1,7 @@
-package Sorts;
+package Algorithms.Sorts;
 
-import static Sorts.SortUtils.less;
-import static Sorts.SortUtils.print;
+import static Algorithms.Sorts.SortUtils.less;
+import static Algorithms.Sorts.SortUtils.print;
 
 /** @author Podshivalov Nikita (https://github.com/nikitap492) */
 class CycleSort implements SortAlgorithm {

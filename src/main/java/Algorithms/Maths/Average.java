@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** Calculate average of a list of numbers */
 public class Average {

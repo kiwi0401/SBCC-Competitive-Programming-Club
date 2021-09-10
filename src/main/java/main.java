@@ -6,3 +6,4 @@ public class main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     }
 }
+

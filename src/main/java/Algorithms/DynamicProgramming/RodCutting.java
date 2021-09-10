@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 
 /**
  * A DynamicProgramming solution for Rod cutting problem Returns the best obtainable price for a rod

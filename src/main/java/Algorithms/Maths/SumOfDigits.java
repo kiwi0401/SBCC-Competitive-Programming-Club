@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 public class SumOfDigits {
   public static void main(String[] args) {

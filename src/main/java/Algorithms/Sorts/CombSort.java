@@ -1,6 +1,6 @@
-package Sorts;
+package Algorithms.Sorts;
 
-import static Sorts.SortUtils.*;
+import static Algorithms.Sorts.SortUtils.*;
 
 /**
  * Comb Sort algorithm implementation

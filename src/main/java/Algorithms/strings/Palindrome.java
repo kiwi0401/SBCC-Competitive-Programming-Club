@@ -1,4 +1,4 @@
-package strings;
+package Algorithms.strings;
 
 /** Wikipedia: https://en.wikipedia.org/wiki/Palindrome */
 class Palindrome {

@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 /**
  * Dijkstra's algorithm,is a graph search algorithm that solves the single-source shortest path

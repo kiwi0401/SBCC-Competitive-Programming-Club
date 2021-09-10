@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 // POWER (exponentials) Examples (a^b)
 public class Pow {

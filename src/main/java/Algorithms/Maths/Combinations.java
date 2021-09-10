@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** @see <a href="https://en.wikipedia.org/wiki/Combination">Combination</a> */
 public class Combinations {

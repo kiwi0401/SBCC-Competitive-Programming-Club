@@ -1,4 +1,4 @@
-package Searches;
+package Algorithms.Searches;
 
 import java.util.Scanner;
 

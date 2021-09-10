@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 
 /** DynamicProgramming solution for the Egg Dropping Puzzle */
 public class EggDropping {

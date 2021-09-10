@@ -1,4 +1,4 @@
-package test;
+package Algorithms.DynamicProgramming;
 
 import java.io.*;
 import java.util.*;

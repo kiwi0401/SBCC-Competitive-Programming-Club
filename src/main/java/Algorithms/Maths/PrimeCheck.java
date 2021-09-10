@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 import java.util.Scanner;
 

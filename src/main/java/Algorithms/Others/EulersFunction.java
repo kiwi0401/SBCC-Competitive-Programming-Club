@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 /**
  * You can read more about Euler's totient function

@@ -1,4 +1,4 @@
-package Conversions;
+package Algorithms.Conversions;
 
 // Hex [0-9],[A-F] -> Binary [0,1]
 

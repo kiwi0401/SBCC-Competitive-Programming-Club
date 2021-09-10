@@ -1,4 +1,4 @@
-package divideconquer;
+package Algorithms.divideconquer;
 
 import java.util.ArrayList;
 import java.util.Comparator;

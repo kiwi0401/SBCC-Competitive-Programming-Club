@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** https://en.wikipedia.org/wiki/Lucas_number */
 public class LucasSeries {

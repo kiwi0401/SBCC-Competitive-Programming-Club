@@ -1,4 +1,4 @@
-package DataStructures.Trees;
+package Algorithms.DataStructures.Trees;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

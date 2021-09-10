@@ -1,4 +1,4 @@
-package divideconquer;
+package Algorithms.divideconquer;
 
 /**
  * For a set of points in a coordinates system (10000 maximum), ClosestPair class calculates the two

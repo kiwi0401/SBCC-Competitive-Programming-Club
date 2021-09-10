@@ -1,6 +1,6 @@
-package Sorts;
+package Algorithms.Sorts;
 
-import static Sorts.SortUtils.print;
+import static Algorithms.Sorts.SortUtils.print;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 

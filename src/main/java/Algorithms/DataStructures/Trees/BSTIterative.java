@@ -1,4 +1,4 @@
-/**
+package Algorithms.DataStructures.Trees; /**
  *
  *
  * <h1>Binary Search Tree (Iterative)</h1>

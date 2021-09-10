@@ -1,4 +1,4 @@
-package DataStructures.Stacks;
+package Algorithms.DataStructures.Stacks;
 /**
  * Implementation of a stack using nodes. Unlimited size, no arraylist.
  *

@@ -1,6 +1,4 @@
-package Searches;
-
-import java.util.*;
+package Algorithms.Searches;
 
 class PerfectBinarySearch {
 

@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 /** Implementation of Knuth–Morris–Pratt algorithm Usage: see the main function for an example */
 public class KMP {

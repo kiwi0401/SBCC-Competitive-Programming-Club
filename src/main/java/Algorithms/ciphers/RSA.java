@@ -1,4 +1,4 @@
-package ciphers;
+package Algorithms.ciphers;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

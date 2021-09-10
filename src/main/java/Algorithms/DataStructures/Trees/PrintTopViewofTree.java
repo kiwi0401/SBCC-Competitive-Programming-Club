@@ -1,4 +1,4 @@
-package DataStructures.Trees; // Java program to print top view of Binary tree
+package Algorithms.DataStructures.Trees; // Java program to print top view of Binary tree
 
 import java.util.HashSet;
 import java.util.LinkedList;

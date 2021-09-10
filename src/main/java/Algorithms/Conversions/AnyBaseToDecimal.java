@@ -1,4 +1,4 @@
-package Conversions;
+package Algorithms.Conversions;
 
 /** @author Varun Upadhyay (https://github.com/varunu28) */
 

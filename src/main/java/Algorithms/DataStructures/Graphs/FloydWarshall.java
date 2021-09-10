@@ -1,99 +1,76 @@
 package Algorithms.DataStructures.Graphs;
 
-public class FloydWarshall
-{
-  final static int INF = 99999, V = 4;
+import java.util.Scanner;
 
-  void floydWarshall(int graph[][])
-  {
-    int dist[][] = new int[V][V];
-    int i, j, k;
- 
-        /* Initialize the solution matrix
-           same as input graph matrix.
-           Or we can say the initial values
-           of shortest distances
-           are based on shortest paths
-           considering no intermediate
-           vertex. */
-    for (i = 0; i < V; i++)
-      for (j = 0; j < V; j++)
-        dist[i][j] = graph[i][j];
- 
-        /* Add all vertices one by one
-           to the set of intermediate
-           vertices.
-          ---> Before start of an iteration,
-               we have shortest
-               distances between all pairs
-               of vertices such that
-               the shortest distances consider
-               only the vertices in
-               set {0, 1, 2, .. k-1} as
-               intermediate vertices.
-          ----> After the end of an iteration,
-                vertex no. k is added
-                to the set of intermediate
-                vertices and the set
-                becomes {0, 1, 2, .. k} */
-    for (k = 0; k < V; k++)
-    {
-      // Pick all vertices as source one by one
-      for (i = 0; i < V; i++)
+public class FloydWarshall {
+  private int DistanceMatrix[][];
+  private int numberofvertices; // number of vertices in the graph
+  public static final int INFINITY = 999;
+
+  public FloydWarshall(int numberofvertices) {
+    DistanceMatrix =
+        new int[numberofvertices + 1]
+            [numberofvertices
+                + 1]; // stores the value of distance from all the possible path form the source
+    // vertex to destination vertex
+    // The matrix is initialized with 0's by default
+    this.numberofvertices = numberofvertices;
+  }
+
+  public void floydwarshall(
+      int AdjacencyMatrix[][]) // calculates all the distances from source to destination vertex
       {
-        // Pick all vertices as destination for the
-        // above picked source
-        for (j = 0; j < V; j++)
-        {
-          // If vertex k is on the shortest path from
-          // i to j, then update the value of dist[i][j]
-          if (dist[i][k] + dist[k][j] < dist[i][j])
-            dist[i][j] = dist[i][k] + dist[k][j];
+    for (int source = 1; source <= numberofvertices; source++) {
+      for (int destination = 1; destination <= numberofvertices; destination++) {
+        DistanceMatrix[source][destination] = AdjacencyMatrix[source][destination];
+      }
+    }
+    for (int intermediate = 1; intermediate <= numberofvertices; intermediate++) {
+      for (int source = 1; source <= numberofvertices; source++) {
+        for (int destination = 1; destination <= numberofvertices; destination++) {
+          if (DistanceMatrix[source][intermediate] + DistanceMatrix[intermediate][destination]
+              < DistanceMatrix[source][destination])
+          // if the new distance calculated is less then the earlier shortest
+          // calculated distance it get replaced as new shortest distance
+          {
+            DistanceMatrix[source][destination] =
+                DistanceMatrix[source][intermediate] + DistanceMatrix[intermediate][destination];
+          }
         }
       }
     }
-
-    // Print the shortest distance matrix
-    printSolution(dist);
-  }
-
-  void printSolution(int[][] dist)
-  {
-    System.out.println("The following matrix shows the shortest "+
-            "distances between every pair of vertices");
-    for (int i=0; i<V; ++i)
-    {
-      for (int j=0; j<V; ++j)
-      {
-        if (dist[i][j]==INF)
-          System.out.print("INF ");
-        else
-          System.out.print(dist[i][j]+"   ");
+    for (int source = 1; source <= numberofvertices; source++) System.out.print("\t" + source);
+    System.out.println();
+    for (int source = 1; source <= numberofvertices; source++) {
+      System.out.print(source + "\t");
+      for (int destination = 1; destination <= numberofvertices; destination++) {
+        System.out.print(DistanceMatrix[source][destination] + "\t");
       }
       System.out.println();
     }
   }
 
-  // Driver program to test above function
-  public static void main (String[] args)
-  {
-        /* Let us create the following weighted graph
-           10
-        (0)------->(3)
-        |         /|\
-        5 |          |
-        |          | 1
-        \|/         |
-        (1)------->(2)
-           3           */
-    int[][] graph = { {0,   5,  1, 10},
-            {INF, 0,   3, INF},
-            {INF, INF, 0,   1},
-            {INF, INF, INF, 0}
-    };
-    FloydWarshall a = new FloydWarshall();
-
-    // Print the solution
-    a.floydWarshall(graph);
+  public static void main(String... arg) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the number of vertices");
+    int numberOfVertices = scan.nextInt();
+    int[][] adjacencyMatrix = new int[numberOfVertices + 1][numberOfVertices + 1];
+    System.out.println("Enter the Weighted Matrix for the graph");
+    for (int source = 1; source <= numberOfVertices; source++) {
+      for (int destination = 1; destination <= numberOfVertices; destination++) {
+        adjacencyMatrix[source][destination] = scan.nextInt();
+        if (source == destination) {
+          adjacencyMatrix[source][destination] = 0;
+          continue;
+        }
+        if (adjacencyMatrix[source][destination] == 0) {
+          adjacencyMatrix[source][destination] = INFINITY;
+        }
+      }
+    }
+    System.out.println("The Transitive Closure of the Graph");
+    FloydWarshall floydwarshall = new FloydWarshall(numberOfVertices);
+    floydwarshall.floydwarshall(adjacencyMatrix);
+    scan.close();
   }
 }

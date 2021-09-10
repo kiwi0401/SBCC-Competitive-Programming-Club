@@ -1,4 +1,4 @@
-package Conversions;
+package Algorithms.Conversions;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

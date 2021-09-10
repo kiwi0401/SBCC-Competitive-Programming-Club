@@ -1,4 +1,4 @@
-package Searches;
+package Algorithms.Searches;
 
 public class JumpSearch implements SearchAlgorithm {
 

@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package Algorithms.DataStructures.Heaps;
 
 import java.util.ArrayList;
 import java.util.List;

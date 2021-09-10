@@ -1,4 +1,4 @@
-package Searches;
+package Algorithms.Searches;
 
 /**
  * The common interface of most searching algorithms

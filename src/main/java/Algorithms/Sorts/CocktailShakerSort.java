@@ -1,4 +1,4 @@
-package Sorts;
+package Algorithms.Sorts;
 
 /**
  * @author Mateus Bizzo (https://github.com/MattBizzo)

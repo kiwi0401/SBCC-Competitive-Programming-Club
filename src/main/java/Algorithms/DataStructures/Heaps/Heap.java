@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package Algorithms.DataStructures.Heaps;
 
 /**
  * Interface common to heap data structures.<br>

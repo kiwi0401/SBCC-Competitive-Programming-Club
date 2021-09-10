@@ -1,4 +1,4 @@
-package DataStructures.Graphs;
+package Algorithms.DataStructures.Graphs;
 
 import java.util.ArrayList;
 import java.util.Scanner;

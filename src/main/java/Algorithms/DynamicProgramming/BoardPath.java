@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 /*
 * this is an important Algo in which
 * we have starting and ending of board and we have to reach

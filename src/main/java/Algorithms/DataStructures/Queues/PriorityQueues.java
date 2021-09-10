@@ -1,4 +1,4 @@
-package DataStructures.Queues;
+package Algorithms.DataStructures.Queues;
 
 /**
  * This class implements a PriorityQueue.

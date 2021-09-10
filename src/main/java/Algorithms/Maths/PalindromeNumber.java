@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 public class PalindromeNumber {
   public static void main(String[] args) {

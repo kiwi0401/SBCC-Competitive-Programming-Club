@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 public class ParseInteger {
   public static void main(String[] args) {

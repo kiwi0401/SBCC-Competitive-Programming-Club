@@ -1,4 +1,4 @@
-package Conversions;
+package Algorithms.Conversions;
 
 // hex = [0 - 9] -> [A - F]
 class DecimalToHexaDecimal {

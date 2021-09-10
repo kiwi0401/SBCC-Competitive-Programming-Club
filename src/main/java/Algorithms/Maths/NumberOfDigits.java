@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** Find the number of digits in a number. */
 public class NumberOfDigits {

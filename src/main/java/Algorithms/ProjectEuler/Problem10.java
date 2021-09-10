@@ -1,4 +1,4 @@
-package ProjectEuler;
+package Algorithms.ProjectEuler;
 
 /**
  * The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.

@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 
 /**
  * A DynamicProgramming based solution for Edit Distance problem In Java Description of Edit

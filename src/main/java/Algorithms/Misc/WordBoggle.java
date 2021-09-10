@@ -1,3 +1,5 @@
+package Algorithms.Misc;
+
 import java.util.*;
 
 public class WordBoggle {

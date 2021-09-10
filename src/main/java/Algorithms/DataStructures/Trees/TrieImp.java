@@ -1,4 +1,4 @@
-package DataStructures.Trees;
+package Algorithms.DataStructures.Trees;
 
 /**
  * Trie Data structure implementation without any libraries

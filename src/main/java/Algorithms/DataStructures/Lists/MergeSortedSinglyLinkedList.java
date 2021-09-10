@@ -1,4 +1,4 @@
-package DataStructures.Lists;
+package Algorithms.DataStructures.Lists;
 
 public class MergeSortedSinglyLinkedList extends SinglyLinkedList {
 

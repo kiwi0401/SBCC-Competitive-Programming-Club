@@ -1,4 +1,4 @@
-package DataStructures.HashMap.Hashing;
+package Algorithms.DataStructures.HashMap.Hashing;
 
 import java.util.Scanner;
 

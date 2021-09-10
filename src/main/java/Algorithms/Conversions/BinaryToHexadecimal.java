@@ -1,4 +1,4 @@
-package Conversions;
+package Algorithms.Conversions;
 
 import java.util.*;
 

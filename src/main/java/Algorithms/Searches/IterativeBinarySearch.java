@@ -1,4 +1,4 @@
-package Searches;
+package Algorithms.Searches;
 
 import static java.lang.String.format;
 

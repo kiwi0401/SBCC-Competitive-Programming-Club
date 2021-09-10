@@ -1,4 +1,4 @@
-package ciphers;
+package Algorithms.ciphers;
 
 /**
  * Columnar Transposition Cipher Encryption and Decryption.

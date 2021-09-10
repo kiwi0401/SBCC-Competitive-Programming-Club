@@ -1,4 +1,4 @@
-// Problem -> Connect all the edges with the minimum cost.
+package Algorithms.DataStructures.Graphs;// Problem -> Connect all the edges with the minimum cost.
 // Possible Solution -> Kruskal Algorithm (KA), KA finds the minimum-spanning-tree, which means, the
 // group of edges with the minimum sum of their weights that connect the whole graph.
 // The graph needs to be connected, because if there are nodes impossible to reach, there are no

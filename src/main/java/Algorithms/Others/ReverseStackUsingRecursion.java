@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 /* Program to reverse a Stack using Recursion*/
 

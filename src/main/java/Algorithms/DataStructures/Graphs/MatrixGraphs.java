@@ -1,4 +1,4 @@
-package DataStructures.Graphs;
+package Algorithms.DataStructures.Graphs;
 
 public class MatrixGraphs {
 

@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 import java.util.*;
 

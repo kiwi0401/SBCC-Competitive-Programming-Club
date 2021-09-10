@@ -1,4 +1,4 @@
-package DataStructures.Lists;
+package Algorithms.DataStructures.Lists;
 
 public class CircleLinkedList<E> {
   private static class Node<E> {

@@ -1,4 +1,4 @@
-package Others;
+package Algorithms.Others;
 
 /** @author Varun Upadhyay (https://github.com/varunu28) */
 public class SieveOfEratosthenes {

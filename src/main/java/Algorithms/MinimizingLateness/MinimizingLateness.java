@@ -1,4 +1,4 @@
-package MinimizingLateness;
+package Algorithms.MinimizingLateness;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

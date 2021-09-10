@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package Algorithms.DataStructures.Heaps;
 
 /**
  * @author Nicolas Renard Exception to be thrown if the getElement method is used on an empty heap.

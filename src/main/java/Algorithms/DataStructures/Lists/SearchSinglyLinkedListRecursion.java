@@ -1,4 +1,4 @@
-package DataStructures.Lists;
+package Algorithms.DataStructures.Lists;
 
 public class SearchSinglyLinkedListRecursion extends SinglyLinkedList {
   public static void main(String[] args) {

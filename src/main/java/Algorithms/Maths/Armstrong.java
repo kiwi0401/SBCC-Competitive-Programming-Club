@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /**
  * An Armstrong number is equal to the sum of the cubes of its digits. For example, 370 is an

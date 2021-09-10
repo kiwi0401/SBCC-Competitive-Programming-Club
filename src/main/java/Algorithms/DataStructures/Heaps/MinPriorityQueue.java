@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package Algorithms.DataStructures.Heaps;
 
 /**
  * Minimum Priority Queue It is a part of heap data structure A heap is a specific tree based data

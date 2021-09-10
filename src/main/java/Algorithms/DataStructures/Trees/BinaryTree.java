@@ -1,4 +1,4 @@
-package DataStructures.Trees;
+package Algorithms.DataStructures.Trees;
 
 /**
  * This entire class is used to build a Binary Tree data structure. There is the Node Class and the

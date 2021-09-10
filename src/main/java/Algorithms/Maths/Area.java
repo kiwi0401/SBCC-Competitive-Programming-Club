@@ -1,4 +1,4 @@
-package Maths;
+package Algorithms.Maths;
 
 /** Find the area of various geometric shapes */
 public class Area {

@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package Algorithms.DynamicProgramming;
 
 /**
  * @author Kshitij VERMA (github.com/kv19971) LEVENSHTEIN DISTANCE dyamic programming implementation
